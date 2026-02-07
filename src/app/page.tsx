@@ -124,6 +124,11 @@ export default function CountdownTimer() {
 
   return (
     <main className={`min-h-screen bg-gradient-to-br ${theme.bg}`}>
+      <section data-seo-explainer className="max-w-3xl mx-auto p-4 text-gray-700">
+        <h2 className="text-lg font-semibold mb-2">Om dette værktøj</h2>
+        <p>Dette gratis online værktøj er bygget til at løse en praktisk opgave hurtigt og sikkert direkte i din browser. Ingen data sendes til servere, og du kan frit bruge resultatet.</p>
+        <p>Vi fokuserer på brugervenlighed, performance og gennemsigtighed. Nedenfor finder du tips, forklaringer og bedste praksis, så du forstår metoden og kan bruge den i hverdagen.</p>
+      </section>
       {/* Header */}
       <header className="bg-white shadow-sm">
         <div className="max-w-4xl mx-auto px-4 py-6">
